@@ -1,0 +1,61 @@
+body{
+    background-color: lightgrey;
+}
+
+section{
+    background-color: rgb(243, 172, 243);
+    width: 300px;
+    height: 300px;
+}
+
+#app {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+}  
+
+#top {
+    display: flex;
+}
+
+#large {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 900px;
+    height: 60vh;
+    background-color: aliceblue;
+
+
+}
+
+#large div {
+    background-color: blueviolet;
+    width: 80%;
+    height: 40vh;
+}
+
+.largewords {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 20px;
+    height: 20px;
+    background-color: bisque;
+}
+
+aside{
+    width: 300px;
+    height: 900px;
+    background-color: lightblue;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+}
